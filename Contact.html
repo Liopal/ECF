@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/bootstrap-icons-1.10.3/">
+  <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a href="./index.html" class="navbar-brand" id="link-logo">
+          <img class="logo" src="./assets/img/Logo vitrines.jpg" alt="Logo">
+        </a>
+        <button button class="navbar-toggler"
+        type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span><img class="mon-burger" src="./assets/img/burger.svg" alt="burger"></span></button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav mx-auto mes-liens-nav d-flex">
+            <li class="nav-item mx-auto custom-item-nav">
+              <a class="nav-link" href="./index.html">Acceuil</a>
+            </li>
+            <li class="nav-item mx-auto custom-item-nav">
+              <a class="nav-link" href="./page2.html">Informations</a>
+            </li>
+            <li class="nav-item mx-auto custom-item-nav">
+                <a class="nav-link active" id="pageactive" aria-current="page" href="./Contact.html">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <h1 class="text-center">Nous contacter</h1>
+      <div class="container text-center align-items-center">
+          <div class="form-row col-md-12">
+            <div class=" mb-3">
+              <label for="prenom">Prénom</label>
+              <input type="text" class="form-control" id="prenom" placeholder="Jacques" required>
+            </div>
+            <div class="mb-3">
+              <label for="nom">Nom de famille</label>
+              <input type="text" class="form-control" id="nom" placeholder="Martin" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="mb-3">
+                <label for="ville">Ville</label>
+                <input type="text" class="form-control" id="ville" placeholder="Ville" required>
+              </div>
+              <div class="mb-3">
+                <label for="Txt" class="form-label">Expliquez nous :</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Envoyer</button>
+      </div>
+    </div>
+  </main>
+
+
+
+  <footer class="container-fluid section-footer">
+    <div class="d-flex mon-footer ">
+      <p class="droits-reserve">@2023 tous droits réservés</p>
+      <a href="https://www.facebook.com/vdpc.vitrinespayschatillonnais/photos"><img class="img-fb" src="./assets/bootstrap-icons-1.10.3/facebook.svg" alt="logo facebook"></a>
+    </div>
+  </footer>
+  <script src="./assets/JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
